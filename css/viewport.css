@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.caixa {
+  width: 375px;
+  height: 667px;
+  background-color: red;
+}
