@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>EBTS Tecnologia</title>
+    <!--
+    <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-112740582-1', 'auto'); 
+  ga('send', 'pageview'); 
+
+</script>-->
+
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/componentes.css">
+  </head>
+  <body>
+
+    <header class="layout-cabecalho  layout-cabecalho--home">
+      <div class="container">
+
+        <nav class="navegacao">
+          <img src="imagens/logo.png" width="100" height="35" alt="MyPilas">
+
+          <div class="navegacao__menu">
+            <button class="botao-chaveador  js-botao-chaveador"></button>
+
+            <ul class="menu  js-menu">
+              <li class="menu__item">
+                <a href="#">Nossa Empresa</a>
+              </li>
+              <li class="menu__item">
+                <a href="#produtos">Automação Comercial</a>
+              </li>
+              <li class="menu__item">
+                <a href="#planos2">Segurança em T.I.</a>
+              </li>
+              <li class="menu__item">
+                <a href="#planos">Nossos Serviços</a>
+              </li>
+              <li class="menu__item">
+                <a href="http://ebts.freshdesk.com">Abrir Chamado</a>
+              </li>
+              <!--<li class="menu__item  menu__item--botao">
+                <a href="#" class="botao  botao--login">Login</a>
+              </li>-->
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="layout-chamada">
+      <div class="container">
+
+        <div class="chamada">
+          <h2 class="chamada__titulo">Atuando desde 2007 nas mais diversas atividades tecnológicas da sua organização</h2>
+          <p class="chamada__subtitulo">Assessoria, administração de serviços e redes mistas, licenciamento, consultoria em segurança, revenda de hardware e software para gestão de recursos para seu negócio</p>
+
+          <div class="chamada__acao">
+            <a href="#planos" class="botao  botao--principal">Conheça nossos serviços para seu negócio</a>
+          </div>
+          <br>
+          <div class="chamada__acao">
+            <a href="#planos2" class="botao  botao--principal">Conheça nossos serviços em segurança T.I.</a>
+          </div>
+          <br>
+          <div class="chamada__acao">
+            <a href="#produtos" class="botao  botao--principal">Conheça nossos produtos para Automação Comercial</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="layout-depoimento">
+      <div class="container">
+        
+        <div class="depoimento">
+          <blockquote>
+            Trabalhamos basicamente em 3 pilares: a. Situação atual, b. Situação desejável
+            c. Identificar o que não está funcionando para ser desenvolvimento um plano de ação
+            para que possa através de um ciclo PDCA alcançar os objetivos.
+          </blockquote>
+
+          <div class="depoimento__autor">
+            <img src="imagens/joao-da-silva.jpg" width="180" height="180" alt="João da Silva">
+            <p>EBTS Tecnologia</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="planos" class="layout-planos">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+
+            <article class="plano">
+              <h2 class="plano__cabecalho">Suporte</h2>
+              <ul class="plano__caracteristicas">
+                <li>SLA<strong> 4Hrs</strong></li>
+                <li><strong>8 Hrs / 5 dias</strong> Atendimento</li>
+                <li>Chamados ilimitados</li>
+                <li>Acesso seguro</li>
+                <li>Contrato de Confidencialidade</li>
+              </ul>
+              <footer class="plano__rodape">
+               <!-- <a href="assine.html" class="botao  botao--assinar">Assinar</a>-->
+               <figure>
+                  <img src="imagens/tux.jpg" alt="sistema operacional" title="Soluções em Servidores" width="100" height="100" />
+                  <img src="imagens/sqlserver.png" alt="banco de dados" title="Soluções em banco de dados" width="100" height="100" />
+                  <img src="imagens/mysql.png" alt="banco de dados" title="Soluções em banco de dados" width="100" height="100" />
+                </figure>
+
+              </footer>
+            </article>
+
+          </div>
+          <div class="col-sm-4">
+
+            <article class="plano  plano--mais-popular">
+              <h2 class="plano__cabecalho">Consultoria</h2>
+              <ul class="plano__caracteristicas">
+                <li><strong>Atendimento especializado</strong></li>
+                <li>Avaliação de <strong>segurança da informação</strong></li>                
+                <li>Consultoria para inventário e documentação</li>
+                <li>Licenciamento de Software</li>
+                <li>Revenda de Produtos</li>
+                <li>Treinamento especializado</li>
+              </ul>
+              <footer class="plano__rodape">
+                <!--<a href="assine.html" class="botao  botao--assinar">Assinar</a>-->
+               <figure>
+                  <img src="imagens/digisat.png" alt="sistema gerencial" title="Soluções em comércio e indústria" width="100" height="50" />
+                  <img src="imagens/intelbras.jpg" alt="segurança" title="Soluções em segurança" width="100" height="100" />
+                  <img src="imagens/microsoft.png" alt="sistema operacional" title="Soluções em Servidores" width="100" height="100" />
+                </figure>
+              </footer>
+            </article>
+
+          </div>
+          <div class="col-sm-4  ultima-coluna">
+
+            <article class="plano">
+              <h2 class="plano__cabecalho">Gestão</h2>
+              <ul class="plano__caracteristicas">
+                <li>Análise <strong>infraestrutura de T.I.</strong></li>
+                <li>Avaliação de <strong>segurança da informação</strong></li>
+                <li>Desenvolvimento <strong>soluções de integração</strong></li>                
+                <li>Licenciamento de Software</li>
+                <li>Acesso seguro</li>
+                <li>Consulte-nos para maiores detalhes</li>
+              </ul>
+              <footer class="plano__rodape">
+               <!-- <a href="assine.html" class="botao  botao--assinar">Assinar</a>-->
+               <figure>
+                  <img src="imagens/bitdefender.png" alt="segurança" title="Soluções em segurança" width="100" height="100" />
+                  <img src="imagens/mikrotik.png" alt="firewall" title="Soluções em segurança e roteamento" width="100" height="100" />
+                  <img src="imagens/ubiquiti.jpg" alt="comunicação" title="Soluções em comunicação" width="100" height="100" />
+                </figure>
+              </footer>
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Inicio-->    
+    <div id="planos2" class="layout-planos">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+
+            <article class="plano">
+              <h2 class="plano__cabecalho">PenTest</h2>
+              <ul class="plano__caracteristicas">
+                <li>Atendimento através de <strong> Contrato de Sigilo</strong></li>
+                <li><strong>Somos certificados</strong> como Hacker Ético</li>
+                <li><strong>Avaliação e Correção de vulnerabilidades em redes Windows/Unix</strong></li>
+                <li>Utilização de ferramentas corporativas licenciadas</li>
+                <li>Relatório para boas práticas no final do processo</li>
+              </ul>
+              <footer class="plano__rodape">
+               <!-- <a href="assine.html" class="botao  botao--assinar">Assinar</a>-->
+               <figure>
+                  <img src="imagens/tux.jpg" alt="sistema operacional" title="Soluções em Servidores" width="100" height="100" />
+                  <img src="imagens/microsoft.png" alt="sistema operacional" title="Soluções em Servidores" width="100" height="100" />
+                  <img src="imagens/bitdefender.png" alt="segurança" title="Soluções em segurança" width="100" height="100" />
+                </figure>
+
+              </footer>
+            </article>
+
+          </div>
+          <div class="col-sm-4">
+
+            <article class="plano">
+              <h2 class="plano__cabecalho">Servidor de Arquivos</h2>
+              <ul class="plano__caracteristicas">
+                <li><strong>Configuração de Servidor Dedicado</strong></li>
+                <li>Avaliação de <strong>infraestrutura</strong></li>                
+                <li>Definição da melhor solução para compartilhamento</li>
+                <li>Permissões de acesso à arquivos em nível hierárquico</li>
+                <li>Evita ou diminui o acesso de ransonwares em máquinas que não possui acesso</li>
+                <li>de escrita, podendo criar uma rede mista, entre estações windows e servidor</li>
+                <li>de compartilhamento em Unix, sendo gerenciado através de interface gráfica.</li>
+              </ul>
+              <footer class="plano__rodape">
+                <!--<a href="assine.html" class="botao  botao--assinar">Assinar</a>-->
+               <figure>
+                  <img src="imagens/digisat.png" alt="sistema gerencial" title="Soluções em comércio e indústria" width="100" height="50" />
+                  <img src="imagens/intelbras.jpg" alt="segurança" title="Soluções em segurança" width="100" height="100" />
+                  <img src="imagens/microsoft.png" alt="sistema operacional" title="Soluções em Servidores" width="100" height="100" />
+                </figure>
+              </footer>
+            </article>
+
+          </div>
+          <div class="col-sm-4  ultima-coluna">
+
+            <article class="plano  plano--mais-popular">
+              <h2 class="plano__cabecalho">Solução contra invasão</h2>
+              <ul class="plano__caracteristicas">
+                <li>Análise <strong>infraestrutura de T.I.</strong></li>
+                <li>Avaliação de <strong>segurança da informação</strong></li>
+                <li>Desenvolvimento <strong>para combater vírus,ransonware,malware entre outros</strong></li>   
+                <li>Somos parceiros da <a ref="https://www.av-test.org/en/antivirus/business-windows-client/windows-10/">BitDefender</a>, opção reconhecida pela <a href="https://www.google.com.br/search?q=av-test&oq=av-test&aqs=chrome..69i57j0l5.4117j0j7&sourceid=chrome&ie=UTF-8">Av-Test</a> como a de melhor </li>
+                <li>e resultados, oferecemos planos de licenciamento com valores atrativos e</li>
+                <li>suporte no Brasil 24h/8dias Consulte-nos para maiores detalhes</li>
+              </ul>
+              <footer class="plano__rodape">
+               <!-- <a href="assine.html" class="botao  botao--assinar">Assinar</a>-->
+               <figure>
+                  <img src="imagens/bitdefender.png" alt="segurança" title="Soluções em segurança" width="100" height="100" />
+                  <img src="imagens/mikrotik.png" alt="firewall" title="Soluções em segurança e roteamento" width="100" height="100" />
+                  <img src="imagens/ubiquiti.jpg" alt="comunicação" title="Soluções em comunicação" width="100" height="100" />
+                </figure>
+              </footer>
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Final-->
+<div id="produtos" class="layout-planos">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+
+            <article class="plano  plano--mais-popular">
+              <h2 class="plano__cabecalho">Comercial G6</h2>
+              <div class="plano__preco">R$ 635,00*</div>
+              <ul class="plano__caracteristicas">
+                <li>É um sistema de <strong>interface amigável</strong>, destinado à <strong>emissão de cupom fiscal, NFC-e, S@T, NF-e e nota manual</strong>. Simples e descomplicado, é nosso sistema de entrada, para aqueles clientes que querem atender as exigências fiscais. Deixe tudo mais prático e facilite a sua vida com a nossa tecnologia.</li><br>
+                <li><strong>Cadastros Simpliﬁcados</strong>: Cadastro uniﬁcado de pessoas, Cadastro de usuário, Cadastro de perﬁs de acesso dos usuários, Cadastro de tributações,Relação de produtos e fornecedores</li>
+                <li><strong>Entrada de Produtos</strong> : Fator de conversão, Nota Fiscal eletrônica de entrada, Nota de compra</li><br>
+                <li><strong>Movimentação de Saída</strong>: Cupom Fiscal, NF-e, NFC-e, MFE CF-e e S@T CF-e</li>
+                <li>Cartão POS, Integração com balanças,TEF (Sitef, GetCard, PayGo e Cappta)</li>
+                <li>DANFE NFC-e e XML por e-mail,Recebimentos de parcelas integral e parcial </li><br>
+                <li><strong>Recursos Auxiliares</strong>: SPED,Sintegra, Inventário, NF-e por email</li>
+                
+                </ul>
+              <footer class="plano__rodape">
+               <!-- <a href="assine.html" class="botao  botao--assinar">Assinar</a>-->
+               <figure>
+                  <a href="https://youtu.be/UHdYIIsKSSU">
+                    <img src="imagens/CG6.png" alt="Comercial G6" title="Soluções em Automação - Administrador" width="295" height="448"/>
+                </a>
+                </figure>
+                <li>Consultar Suporte Mensal</li>
+                <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+                <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
+                <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+                <input type="hidden" name="code" value="FB643037D9D94C0BB4C5CFAA7421BC5D" />
+                <input type="hidden" name="iot" value="button" />
+                <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/209x48-comprar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+                </form>
+                <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+
+              </footer>
+            </article>
+
+          </div>
+          <div class="col-sm-4">
+
+            <article class="plano">
+              <h2 class="plano__cabecalho">Gerencial G6</h2>
+              <div class="plano__preco">R$ 1.995,00*</div>
+              <ul class="plano__caracteristicas">
+                <li>Deixe tudo mais <strong>prático e facilite a sua vida</strong> com a nossa tecnologia. Implantando o Sistema Gerencial G6 você <strong>controlará e gerenciará todos os departamentos de sua empresa em um único sistema</strong>. Uma verdadeira ferramenta administrativa. É um sistema desenvolvido com garantia de bom desempenho e satisfação com real ganho de produtividade. Voltado para o uso em <strong>comércios em geral, gerenciando a área de retaguarda, frente de caixa e serviços</strong>. Atende também: <strong>postos de combustíveis, farmácias e restaurantes</strong>. Conte com o Sistema Gerencial G6 e garanta diferencial competitivo para sua empresa.</li><br>
+                <li>Pré-Venda e DAV</li>
+                <li>Ordem de Serviço</li><br>
+                <li><strong>Módulo Restaurante</strong></li>
+                <li><strong>Restaurante Mobile : Pedidos através de tablets e smartphones,Controle de mesa e conta de cliente,Consulta de reserva de mesas,Notiﬁcação de não consumo,Cancelamento de item, entre outros.</strong></li>
+                <li><strong>Módulo Delivery</strong></li><br>
+                <li><strong>Módulo Posto de Combustível</strong></li><br>
+                <li><strong>Módulo Farmácia :SNGPC,Módulo de Farmácia Popular,Cadastro de medicamentos por lote, Relatório de compra e venda de medicamentos controlados ,Geração dos valores do Ministério da Saúde no contas a receber.</strong></li><br>                
+                <li><strong>Força de Vendas Mobile</strong></li>
+                
+
+              </ul>
+              <footer class="plano__rodape">
+               <!-- <a href="assine.html" class="botao  botao--assinar">Assinar</a>-->
+               <figure>
+                  <a href="https://youtu.be/DneBXd8ntRc">
+                    <img src="imagens/GG6.png" alt="Gerencial G6" title="Soluções em Automação - Gerencial" width="295" height="448"/>
+                </a>
+                </figure>
+                <li>Consultar Suporte Mensal</li>
+                <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+                <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
+                <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+                <input type="hidden" name="code" value="77470EB8A5A5B61DD45FBF9EF1D9E977" />
+                <input type="hidden" name="iot" value="button" />
+                <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/209x48-comprar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+                </form>
+                <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+              </footer>
+            </article> 
+
+          </div>
+
+          <div class="col-sm-4  ultima-coluna">
+              <article class="plano">
+              <h2 class="plano__cabecalho">Administrador G6</h2>
+              <div class="plano__preco">R$ 2.340,00*</div>
+              <ul class="plano__caracteristicas">
+                <li>O empresário brasileiro é criativo, e com as ferramentas certas, pode ser praticamente imbatível. Foi com esse pensamento que desenvolvemos o Sistema Administrador G6,
+                Conte com ele e garanta um diferencial competitivo para sua empresa, com uma <strong>solução ERP completa</strong> que irá gerenciar todos os departamentos de sua empresa em um único sistema, que resolve de verdade os problemas administrativos. Pensado para você ter <strong>economia, ganho na produtividade, resultados operacionais e garantia de satisfação.</strong> É voltado para uso em comércios em geral, <strong>gerenciando a área de retaguarda, frente de caixa e serviços. Atende também, postos de combustíveis, farmácias e restaurantes</strong>, além de controlar Matriz e Filiais. Tenha sua empresa nas mãos, com os resultados gerenciais oferecidos por uma das melhores ferramentas de resultado do mercado. </li><br>
+                <li><strong>Cadastros Simplificados</strong></li>
+                <li><strong>Entrada de Produtos: Pedido de compra com envio por e-mail,Lançamento automatizado da NF-e de entrada, com importação do XML, cadastro do fornecedor e produtos automáticos,
+                Fator de conversão, Montagem de composição, Manifestação do Destinatário com possibilidade de download do arquivo XML, Entrada de produtos por lote, nº de série e grade</strong></li>
+                <li><strong>Movimentação de Saídas</strong></li>
+                <li><strong>Controle Financeiro,Bancário e Fiscal</strong></li>
+                <li><strong>Pré-Venda, DAV e Orçamento</strong></li>
+                <li><strong>Matriz e Filial</strong></li>
+                <li><strong>Ordem de Serviço</strong></li>
+              </ul>
+              <footer class="plano__rodape">
+               <!-- <a href="assine.html" class="botao  botao--assinar">Assinar</a>-->
+               <figure>
+                  <a href="https://youtu.be/nv2ItOznXMs">
+                    <img src="imagens/AG6.png" alt="Administrador G6" title="Soluções em Automação - Start" width="295" height="448"/>
+                </a>
+                </figure>
+                <li>Consultar Suporte Mensal</li>
+                <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+                <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
+                <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+                <input type="hidden" name="code" value="BC39893111118AA1140B8F93B69FED33" />
+                <input type="hidden" name="iot" value="button" />
+                <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/209x48-comprar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+                </form>
+                <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+              </footer>
+            </article>
+           
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="layout-rodape">
+      <div class="container">
+        <p>&copy; EBTS - CNPJ 08.816.305/0001-88. Todos os direitos reservados.</p>
+        <p>ti@ebts.eng.br - (81)99204.8416</p>
+      </div>
+    </footer>
+
+    <script src="javascripts/app.js"></script>
+
+  </body>
+</html>
